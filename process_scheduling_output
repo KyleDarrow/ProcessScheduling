@@ -1,0 +1,315 @@
+Id = 1, priority = 4, duration = 25, arrival time = 10
+Id = 2, priority = 3, duration = 15, arrival time = 17
+Id = 3, priority = 1, duration = 17, arrival time = 26
+Id = 4, priority = 9, duration = 17, arrival time = 30
+Id = 5, priority = 10, duration = 9, arrival time = 40
+Id = 6, priority = 6, duration = 14, arrival time = 47
+Id = 7, priority = 7, duration = 18, arrival time = 52
+Id = 8, priority = 5, duration = 18, arrival time = 70
+Id = 9, priority = 2, duration = 16, arrival time = 93
+Id = 10, priority = 8, duration = 20, arrival time = 125
+
+Maximum wait time = 30
+
+Now running Process id = 1
+Arrival = 10
+Duration = 25
+Run time left = 25
+ at time 10
+Executed process ID:1, at time 10 Remaining: 24
+Executed process ID:1, at time 11 Remaining: 23
+Executed process ID:1, at time 12 Remaining: 22
+Executed process ID:1, at time 13 Remaining: 21
+Executed process ID:1, at time 14 Remaining: 20
+Executed process ID:1, at time 15 Remaining: 19
+Executed process ID:1, at time 16 Remaining: 18
+Now running Process id = 2
+Arrival = 17
+Duration = 15
+Run time left = 15
+ at time 17
+Executed process ID:2, at time 17 Remaining: 14
+Executed process ID:2, at time 18 Remaining: 13
+Executed process ID:2, at time 19 Remaining: 12
+Executed process ID:2, at time 20 Remaining: 11
+Executed process ID:2, at time 21 Remaining: 10
+Executed process ID:2, at time 22 Remaining: 9
+Executed process ID:2, at time 23 Remaining: 8
+Executed process ID:2, at time 24 Remaining: 7
+Executed process ID:2, at time 25 Remaining: 6
+Now running Process id = 3
+Arrival = 26
+Duration = 17
+Run time left = 17
+ at time 26
+Executed process ID:3, at time 26 Remaining: 16
+Executed process ID:3, at time 27 Remaining: 15
+Executed process ID:3, at time 28 Remaining: 14
+Executed process ID:3, at time 29 Remaining: 13
+Executed process ID:3, at time 30 Remaining: 12
+Executed process ID:3, at time 31 Remaining: 11
+Executed process ID:3, at time 32 Remaining: 10
+Executed process ID:3, at time 33 Remaining: 9
+Executed process ID:3, at time 34 Remaining: 8
+Executed process ID:3, at time 35 Remaining: 7
+Executed process ID:3, at time 36 Remaining: 6
+Executed process ID:3, at time 37 Remaining: 5
+Executed process ID:3, at time 38 Remaining: 4
+Executed process ID:3, at time 39 Remaining: 3
+Executed process ID:3, at time 40 Remaining: 2
+Executed process ID:3, at time 41 Remaining: 1
+Executed process ID:3, at time 42 Remaining: 0
+Finished running Process id = 3
+Arrival = 26
+Duration = 17
+Run time left = 0
+ at time 42
+Now running Process id = 2
+Arrival = 17
+Duration = 15
+Run time left = 6
+ at time 43
+Executed process ID:2, at time 43 Remaining: 5
+Executed process ID:2, at time 44 Remaining: 4
+Executed process ID:2, at time 45 Remaining: 3
+Executed process ID:2, at time 46 Remaining: 2
+Process 1 reached maximum wait time... decreasing priority to 3
+Executed process ID:2, at time 47 Remaining: 1
+Executed process ID:2, at time 48 Remaining: 0
+Finished running Process id = 2
+Arrival = 17
+Duration = 15
+Run time left = 0
+ at time 48
+Now running Process id = 1
+Arrival = 10
+Duration = 25
+Run time left = 18
+ at time 49
+Executed process ID:1, at time 49 Remaining: 17
+Executed process ID:1, at time 50 Remaining: 16
+Executed process ID:1, at time 51 Remaining: 15
+Executed process ID:1, at time 52 Remaining: 14
+Executed process ID:1, at time 53 Remaining: 13
+Executed process ID:1, at time 54 Remaining: 12
+Executed process ID:1, at time 55 Remaining: 11
+Executed process ID:1, at time 56 Remaining: 10
+Executed process ID:1, at time 57 Remaining: 9
+Executed process ID:1, at time 58 Remaining: 8
+Executed process ID:1, at time 59 Remaining: 7
+Process 4 reached maximum wait time... decreasing priority to 8
+Executed process ID:1, at time 60 Remaining: 6
+Executed process ID:1, at time 61 Remaining: 5
+Executed process ID:1, at time 62 Remaining: 4
+Executed process ID:1, at time 63 Remaining: 3
+Executed process ID:1, at time 64 Remaining: 2
+Executed process ID:1, at time 65 Remaining: 1
+Executed process ID:1, at time 66 Remaining: 0
+Finished running Process id = 1
+Arrival = 10
+Duration = 25
+Run time left = 0
+ at time 66
+Now running Process id = 6
+Arrival = 47
+Duration = 14
+Run time left = 14
+ at time 67
+Executed process ID:6, at time 67 Remaining: 13
+Executed process ID:6, at time 68 Remaining: 12
+Executed process ID:6, at time 69 Remaining: 11
+Process 5 reached maximum wait time... decreasing priority to 9
+Now running Process id = 8
+Arrival = 70
+Duration = 18
+Run time left = 18
+ at time 70
+Executed process ID:8, at time 70 Remaining: 17
+Executed process ID:8, at time 71 Remaining: 16
+Executed process ID:8, at time 72 Remaining: 15
+Executed process ID:8, at time 73 Remaining: 14
+Executed process ID:8, at time 74 Remaining: 13
+Executed process ID:8, at time 75 Remaining: 12
+Executed process ID:8, at time 76 Remaining: 11
+Executed process ID:8, at time 77 Remaining: 10
+Executed process ID:8, at time 78 Remaining: 9
+Executed process ID:8, at time 79 Remaining: 8
+Process 6 reached maximum wait time... decreasing priority to 5
+Executed process ID:8, at time 80 Remaining: 7
+Executed process ID:8, at time 81 Remaining: 6
+Process 7 reached maximum wait time... decreasing priority to 6
+Executed process ID:8, at time 82 Remaining: 5
+Executed process ID:8, at time 83 Remaining: 4
+Executed process ID:8, at time 84 Remaining: 3
+Executed process ID:8, at time 85 Remaining: 2
+Executed process ID:8, at time 86 Remaining: 1
+Executed process ID:8, at time 87 Remaining: 0
+Finished running Process id = 8
+Arrival = 70
+Duration = 18
+Run time left = 0
+ at time 87
+Now running Process id = 6
+Arrival = 47
+Duration = 14
+Run time left = 11
+ at time 88
+Executed process ID:6, at time 88 Remaining: 10
+Executed process ID:6, at time 89 Remaining: 9
+Process 4 reached maximum wait time... decreasing priority to 7
+Executed process ID:6, at time 90 Remaining: 8
+Executed process ID:6, at time 91 Remaining: 7
+Executed process ID:6, at time 92 Remaining: 6
+Now running Process id = 9
+Arrival = 93
+Duration = 16
+Run time left = 16
+ at time 93
+Executed process ID:9, at time 93 Remaining: 15
+Executed process ID:9, at time 94 Remaining: 14
+Executed process ID:9, at time 95 Remaining: 13
+Executed process ID:9, at time 96 Remaining: 12
+Executed process ID:9, at time 97 Remaining: 11
+Executed process ID:9, at time 98 Remaining: 10
+Executed process ID:9, at time 99 Remaining: 9
+Process 5 reached maximum wait time... decreasing priority to 8
+Executed process ID:9, at time 100 Remaining: 8
+Executed process ID:9, at time 101 Remaining: 7
+Executed process ID:9, at time 102 Remaining: 6
+Executed process ID:9, at time 103 Remaining: 5
+Executed process ID:9, at time 104 Remaining: 4
+Executed process ID:9, at time 105 Remaining: 3
+Executed process ID:9, at time 106 Remaining: 2
+Executed process ID:9, at time 107 Remaining: 1
+Executed process ID:9, at time 108 Remaining: 0
+Finished running Process id = 9
+Arrival = 93
+Duration = 16
+Run time left = 0
+ at time 108
+Now running Process id = 6
+Arrival = 47
+Duration = 14
+Run time left = 6
+ at time 109
+Executed process ID:6, at time 109 Remaining: 5
+Executed process ID:6, at time 110 Remaining: 4
+Executed process ID:6, at time 111 Remaining: 3
+Process 7 reached maximum wait time... decreasing priority to 5
+Executed process ID:6, at time 112 Remaining: 2
+Executed process ID:6, at time 113 Remaining: 1
+Executed process ID:6, at time 114 Remaining: 0
+Finished running Process id = 6
+Arrival = 47
+Duration = 14
+Run time left = 0
+ at time 114
+Now running Process id = 7
+Arrival = 52
+Duration = 18
+Run time left = 18
+ at time 115
+Executed process ID:7, at time 115 Remaining: 17
+Executed process ID:7, at time 116 Remaining: 16
+Executed process ID:7, at time 117 Remaining: 15
+Executed process ID:7, at time 118 Remaining: 14
+Executed process ID:7, at time 119 Remaining: 13
+Process 4 reached maximum wait time... decreasing priority to 6
+Executed process ID:7, at time 120 Remaining: 12
+Executed process ID:7, at time 121 Remaining: 11
+Executed process ID:7, at time 122 Remaining: 10
+Executed process ID:7, at time 123 Remaining: 9
+Executed process ID:7, at time 124 Remaining: 8
+Executed process ID:7, at time 125 Remaining: 7
+Executed process ID:7, at time 126 Remaining: 6
+Executed process ID:7, at time 127 Remaining: 5
+Executed process ID:7, at time 128 Remaining: 4
+Executed process ID:7, at time 129 Remaining: 3
+Process 5 reached maximum wait time... decreasing priority to 7
+Executed process ID:7, at time 130 Remaining: 2
+Executed process ID:7, at time 131 Remaining: 1
+Executed process ID:7, at time 132 Remaining: 0
+Finished running Process id = 7
+Arrival = 52
+Duration = 18
+Run time left = 0
+ at time 132
+Now running Process id = 4
+Arrival = 30
+Duration = 17
+Run time left = 17
+ at time 133
+Executed process ID:4, at time 133 Remaining: 16
+Executed process ID:4, at time 134 Remaining: 15
+Executed process ID:4, at time 135 Remaining: 14
+Executed process ID:4, at time 136 Remaining: 13
+Executed process ID:4, at time 137 Remaining: 12
+Executed process ID:4, at time 138 Remaining: 11
+Executed process ID:4, at time 139 Remaining: 10
+Executed process ID:4, at time 140 Remaining: 9
+Executed process ID:4, at time 141 Remaining: 8
+Executed process ID:4, at time 142 Remaining: 7
+Executed process ID:4, at time 143 Remaining: 6
+Executed process ID:4, at time 144 Remaining: 5
+Executed process ID:4, at time 145 Remaining: 4
+Executed process ID:4, at time 146 Remaining: 3
+Executed process ID:4, at time 147 Remaining: 2
+Executed process ID:4, at time 148 Remaining: 1
+Executed process ID:4, at time 149 Remaining: 0
+Finished running Process id = 4
+Arrival = 30
+Duration = 17
+Run time left = 0
+ at time 149
+Now running Process id = 5
+Arrival = 40
+Duration = 9
+Run time left = 9
+ at time 150
+Executed process ID:5, at time 150 Remaining: 8
+Executed process ID:5, at time 151 Remaining: 7
+Executed process ID:5, at time 152 Remaining: 6
+Executed process ID:5, at time 153 Remaining: 5
+Executed process ID:5, at time 154 Remaining: 4
+Process 10 reached maximum wait time... decreasing priority to 7
+Executed process ID:5, at time 155 Remaining: 3
+Executed process ID:5, at time 156 Remaining: 2
+Executed process ID:5, at time 157 Remaining: 1
+Executed process ID:5, at time 158 Remaining: 0
+Finished running Process id = 5
+Arrival = 40
+Duration = 9
+Run time left = 0
+ at time 158
+Now running Process id = 10
+Arrival = 125
+Duration = 20
+Run time left = 20
+ at time 159
+Executed process ID:10, at time 159 Remaining: 19
+Executed process ID:10, at time 160 Remaining: 18
+Executed process ID:10, at time 161 Remaining: 17
+Executed process ID:10, at time 162 Remaining: 16
+Executed process ID:10, at time 163 Remaining: 15
+Executed process ID:10, at time 164 Remaining: 14
+Executed process ID:10, at time 165 Remaining: 13
+Executed process ID:10, at time 166 Remaining: 12
+Executed process ID:10, at time 167 Remaining: 11
+Executed process ID:10, at time 168 Remaining: 10
+Executed process ID:10, at time 169 Remaining: 9
+Executed process ID:10, at time 170 Remaining: 8
+Executed process ID:10, at time 171 Remaining: 7
+Executed process ID:10, at time 172 Remaining: 6
+Executed process ID:10, at time 173 Remaining: 5
+Executed process ID:10, at time 174 Remaining: 4
+Executed process ID:10, at time 175 Remaining: 3
+Executed process ID:10, at time 176 Remaining: 2
+Executed process ID:10, at time 177 Remaining: 1
+Executed process ID:10, at time 178 Remaining: 0
+Finished running Process id = 10
+Arrival = 125
+Duration = 20
+Run time left = 0
+ at time 178
+Finished running all processes at time 178
+Average Wait Time: 41.3
